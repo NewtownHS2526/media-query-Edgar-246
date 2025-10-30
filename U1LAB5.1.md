@@ -35,11 +35,10 @@ For the entirety of the directions, this lab will be refer to 4 screen sizes: **
 1. For **level 1**, the photos are arranged using _CSS Grid_. Peak at the ruleset for `.main` for the syntax, and use `grid-template-columns` to change the photos so that they are arranged into 3 columns when the screen is `Large` and `Medium`, and 1 column when the screen is `Small`. Remember, your `@media` queries should be at the bottom of your CSS code. Use the links to the exemplar to see what your results should look like. If you're stuck, here's the code for the first breakpoint:
     ```css
     /* Insert @Media queries here! */
-    @media (max-width: 1200px) {
-        .main {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
+   @media (max-width: 1200px) {
+     .container {
+       color: red;}
+   }
     ```
 
 2. Now that you have the columns sorted, let's fix the margin a bit. At `Medium`, change the margin of `.main` to `20px 50px` and for `Small`, change it to `10px`. Try it first before reading on. If you're stuck, here is what the other 2 `@media` queries should look like in full:

@@ -6,7 +6,6 @@ body {
   
   .navbar {
     height: 70px;
-  
     background-color: #3a5a40;
     box-shadow: 1px 1px 15px grey;
   }
@@ -17,7 +16,7 @@ body {
   
   .main {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 50px;
       padding: 20px;
       margin-top: 10px;
@@ -26,8 +25,39 @@ body {
       width: 100%;
       opacity: 1;
       box-shadow: 1px 1px 15px black;
-  } .meal-card:hover {
+  } 
+  .meal-card:hover {
       opacity: 0.6;
   }
   
   /* Insert @Media queries here! */
+@media (max-width: 500px) {
+     .container {
+       color: black;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1px;
+    }
+   }
+
+    @media (max-width: 700px) {
+        .webpage {
+            margin: 20px 50px;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+    }
+
+    @media (max-width: 1400px) {
+        .main {
+            grid-template-columns: 1fr;
+        }  
+        .webpage {
+            margin: 10px; 
+        }
+    }
