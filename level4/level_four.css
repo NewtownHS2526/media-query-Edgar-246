@@ -43,3 +43,17 @@
   }
   
   /* Insert @Media queries here! */
+  @media (max-width:790px) {
+.nav-item {
+  display: none; 
+}
+.plus-sign {
+  display: none; 
+}
+.dropdown {
+  display: inline; 
+}
+.main-nav {
+  justify-content: center;
+}   
+  }

@@ -35,4 +35,13 @@ body {
   }
   
   /* Insert @Media queries here! */
-  @media ()
+  @media (max-width: 922px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .foot-item {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+  

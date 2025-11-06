@@ -16,4 +16,17 @@
   }
   
   /* Insert @Media queries here! */
-   
+   @media (max-width: 769px) {
+  .header {
+    justify-content: center;
+  }
+   }
+   @media (max-width: 254px) {
+  .header {
+    justify-content: space-around;
+     font-size: medium;
+     padding: 10px;
+     gap: 20px;
+
+  }
+   }
